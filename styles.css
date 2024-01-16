@@ -14,11 +14,13 @@ nav{
     gap: 3rem;
     border-bottom: 1px solid hsl(223, 64%, 98%);
 }
+
 .logo{
     width: 20%;
     display: flex;
     justify-content: center;
 }
+
 .menu{
     width: 80%;
     display: flex;
@@ -28,6 +30,7 @@ nav{
     gap: 3rem;
     padding-bottom: 0.4rem;
 }
+
 .menu-items{
     display: flex;
     flex-direction: row;
@@ -38,6 +41,7 @@ nav{
     color: hsl(219, 9%, 45%);
     font-size: 14px;
 }
+
 .menu-profile{
     display: flex;
     flex-direction: row;
@@ -45,9 +49,11 @@ nav{
     align-items: center;
     gap: 2rem;
 }
+
 .menu-profile_prof {
     width: 2rem;
 }
+
 main{
     display: flex;
     flex-direction: row;
@@ -58,6 +64,7 @@ main{
     max-height: calc(100vh - 2rem);
     padding-top: 2rem;
 }
+
 .left{
     display: flex;
     flex: 1;
@@ -65,18 +72,21 @@ main{
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
-    border-right: 1px solid hsl(230, 57%, 50%);
+    /* border-right: 1px solid hsl(230, 57%, 50%); */
 }
+
 .main-product_img{
     max-width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .main-product_img > img {
     max-width: 90%;
     border-radius: 1rem;
 }
+
 .small-product_imgs {
     display: flex;
     flex-direction: row;
@@ -84,10 +94,12 @@ main{
     align-items: center;
     max-width: 70%;
 }
+
 .small-product_imgs > img {
     max-width: 18%;
     border-radius: 0.2rem;
 }
+
 .right{
     display: flex;
     flex: 1;
@@ -96,16 +108,19 @@ main{
     align-items: start;
     padding-inline: 5rem;
 }
+
 .company-name{
     color: hsl(26, 100%, 55%);
     font-size: 24px;
     font-weight: 700;
 }
+
 .company-name {
     color: hsl(26, 100%, 55%);
     font-size: 24px;
     font-weight: 700;
 }
+
 .right>h3 {
     color: hsl(0, 0%, 0%);
     font-size: 34px;
@@ -118,6 +133,7 @@ main{
     font-size: 16px;
     font-weight: 400;
 }
+
 .price {
     display: flex;
     flex-direction: column;
@@ -137,6 +153,7 @@ main{
     font-size: 24px;
     font-weight: 700;
 }
+
 .prices-current > .offer {
     color: hsl(26, 100%, 55%);
     font-size: 14px;
@@ -145,11 +162,13 @@ main{
     padding: 0.3rem;
     border-radius: 0.2rem;
 }
+
 .price > .canceled {
     color: hsl(219, 9%, 45%);
     font-size: 14px;
     text-decoration: line-through;
 }
+
 .cart-buttons {
     display: flex;
     flex-direction: row;
@@ -159,6 +178,7 @@ main{
     gap: 1rem;
     width: 100%;
 }
+
 .cart-button_right {
     width: 50%;
     padding: 0.5rem 1rem;
@@ -175,9 +195,11 @@ main{
     align-items: center;
     gap: 0.5rem;
 }
+
 .cart-button_right > img {
     width: 1rem;
 }
+
 .cart-button_left {
     min-width: 20%;  
     padding: 0.5rem 1rem;
@@ -194,6 +216,7 @@ main{
     align-items: center;
     gap: 2rem;
 }
+
 .cart-button_left > img {
     width: 0.6rem;
 }
