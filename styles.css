@@ -101,3 +101,99 @@ main{
     font-size: 24px;
     font-weight: 700;
 }
+.company-name {
+    color: hsl(26, 100%, 55%);
+    font-size: 24px;
+    font-weight: 700;
+}
+.right>h3 {
+    color: hsl(0, 0%, 0%);
+    font-size: 34px;
+    font-weight: 700;
+    width: 50%;
+}
+
+.desc {
+    color: hsl(219, 9%, 45%);
+    font-size: 16px;
+    font-weight: 400;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.prices-current {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.prices-current > .real {
+    font-size: 24px;
+    font-weight: 700;
+}
+.prices-current > .offer {
+    color: hsl(26, 100%, 55%);
+    font-size: 14px;
+    font-weight: 700;
+    background-color: hsl(25, 100%, 94%);
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+.price > .canceled {
+    color: hsl(219, 9%, 45%);
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.cart-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+.cart-button_right {
+    width: 50%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.cart-button_right > img {
+    width: 1rem;
+}
+.cart-button_left {
+    min-width: 20%;  
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background-color: hsl(0, 4%, 91%);
+    color: hsl(219, 9%, 45%);
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.cart-button_left > img {
+    width: 0.6rem;
+}
