@@ -220,32 +220,47 @@ main{
 .cart-button_left > img {
     width: 0.6rem;
 }
-
+/* The design for a mobile view */
 @media screen and (max-width: 700px){
+
     .hidden {
         display: flex;
       }
-      .invisible-mob {
+
+/* Items in the menu */
+      .menu-items{
         display: none;
       }
-      /* default styles */
-      body {
-        position: relative;
+/* 
+    .invisible-mob {
+        display: none;
       }
-       /* Navbar styles */
-  .nav_container {
+
+/* default styles */
+
+    /* body {
+        position: relative;
+      } */
+
+/* Navbar styles */
+
+  /* .nav_container {
     padding-inline: 1rem;
-  }
+  } */
+/* 
   .nav_left-sec {
     align-items: center;
     gap: 1rem;
   }
+
   .menu {
     cursor: pointer;
   }
+
   .close-btn {
     cursor: pointer;
   }
+
   .overlay {
     position: absolute;
     z-index: 999;
@@ -257,6 +272,7 @@ main{
     opacity: 75%;
     display: none;
   }
+
   .nav_links {
     position: absolute;
     top: 0;
@@ -272,41 +288,52 @@ main{
     flex-direction: column;
     background-color: var(--White);
   }
+
   .nav_link:hover::after {
     bottom: -15px;
   }
+
   .active {
     display: flex;
   }
+
   .nav_link {
     height: fit-content;
     font-weight: 700;
     color: var(--Black);
   }
+
   .nav_right-sec {
     gap: 1.5rem;
   }
+
   .avatar {
     width: 30px;
-  }
+  } */
+
   /* Main section */
-  main {
+
+  /* main {
     flex-direction: column;
     align-items: center;
     margin-inline: 0;
     height: 100%;
     margin-bottom: 4rem;
   }
+
   .thumbnails {
     height: 40%;
   }
+
   .content {
     margin: 2rem;
     height: 50%;
   }
+
   .preview {
     display: none;
   }
+
   .mobile-thumb {
     position: relative;
     display: flex;
@@ -315,31 +342,38 @@ main{
     margin-top: -0.5rem;
     z-index: 1;
   }
+
   .mobile-thumb img {
     object-fit: cover;
     width: 100%;
     z-index: 1;
   }
+
   .title {
     font-size: 2.2rem;
   }
+
   .price {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
+
   .buttons {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
   }
+
   .amount-btn {
     width: 100%;
   }
+
   .add_btn {
     width: 100%;
     margin-left: 0;
   }
+
   #next {
     position: absolute;
     right: 10%;
@@ -356,6 +390,7 @@ main{
     cursor: pointer;
     z-index: 10;
   }
+
   #previous {
     position: absolute;
     left: 10%;
@@ -372,8 +407,9 @@ main{
     cursor: pointer;
     z-index: 10;
   }
+
   #previous img,
   #next img {
     width: 15px;
-  }
+  }*/
 }
